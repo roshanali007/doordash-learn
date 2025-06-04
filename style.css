@@ -659,6 +659,9 @@ footer #aboutus{
     .dasherpg p{
         font-size: 15px;
     }
+    .login .doordash-login {
+        background-position: bottom;
+    }
     .arrow2 span{
         align-self: center;
     } 
@@ -710,7 +713,9 @@ footer #aboutus{
                 height: 600px;
                 width: 100%;
         }
-
+        .login .doordash-login {
+              background-position: bottom;
+        }
         .choices .dasher {
             justify-content: center;
             padding: 0 180px;
@@ -768,7 +773,9 @@ footer #aboutus{
         flex-direction: column;
         justify-content: flex-start;
         }
-
+        .login .doordash-login {
+              background-position: bottom;
+        }
         .login .coupon {
             margin-top: 250px;
         }
