@@ -822,8 +822,8 @@ footer #aboutus{
         display: none;
        } 
        .login .doordash-login .coupon img {
-            width: 20%;
-            height: 7%;
+        width: 500px;
+        height: 50px;
         }
         .login .doordash-login {
         flex-direction: column;
@@ -864,30 +864,30 @@ footer #aboutus{
             font-weight: 700;
         }
         .search .location{
-            font-size: 40px;
+            font-size: 30px;
         }
         .login-btn .person{
             font-size: 30px;
         }
         .login .doordash-login {
-        height: 850px;
+        height: 700px;
         }
         .login .doordash-login .coupon h1 {
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 900;
         }
         .search{
             border-radius: 50px;
         }
         .search-input {
-            margin: 20px 200px 20px 24px;
-            font-size: 21px;
+            margin: 10px 150px 10px 24px;
+            font-size: 20px;
         }
         .search #arrow_forward{
             border-radius: 100%;
             background-color: orangered;
             color: white;
-            padding: 20px;
+            padding: 10px;
         }
         .desktop-only {
             display: inline;
@@ -1180,8 +1180,8 @@ footer #aboutus{
         }
         .copyrights .doordashwhite img{
             margin-bottom: 0px;
-            width: 80px;
-            height: 80px;
+            width: 60px;
+            height: 60px;
         }
         #pop-up .right {
             padding-right: 2%;
@@ -1215,16 +1215,16 @@ footer #aboutus{
             font-size: 30px;
         }
         .social .instagram img{
-            width: 30px;
-            height: 30px;
+            width: 20px;
+            height: 20px;
         }
         .social .facebook img{
-            width: 30px;
-            height: 30px;
+            width: 20px;
+            height: 20px;
         }
         .social .twitter img{
-            width: 30px;
-            height: 30px;
+            width: 20px;
+            height: 20px;
         }
     }
     
