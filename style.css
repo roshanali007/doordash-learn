@@ -47,7 +47,7 @@ body{
 
 #pop-up .pop-open a {
     background: rgb(225, 52, 4);
-    border-radius: 15px;
+    border-radius: 30px;
     color: #f6f6f6;
     padding: 9px 8px;
     font-weight: 900;
@@ -823,7 +823,7 @@ footer #aboutus{
        } 
        .login .doordash-login .coupon img {
             width: 20%;
-            height: 5%;
+            height: 7%;
         }
         .login .doordash-login {
         flex-direction: column;
@@ -870,7 +870,7 @@ footer #aboutus{
             font-size: 30px;
         }
         .login .doordash-login {
-        height: 1100px;
+        height: 850px;
         }
         .login .doordash-login .coupon h1 {
         font-size: 60px;
@@ -912,7 +912,7 @@ footer #aboutus{
             font-weight: 900;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             text-decoration: none;
-            font-size: 30px;
+            font-size: 20px;
         }
 
         .signin-btn {
@@ -1000,7 +1000,7 @@ footer #aboutus{
         .sidescroll .overflowpic {
         
             margin-top: 10%;
-            width: 97%;
+            width: 95%;
         }
         .choices .dasher .dasherpg{
             text-align: center;
@@ -1021,7 +1021,7 @@ footer #aboutus{
             font-size: 1.5rem;
         }
         .choices .dasher img {
-            width: 250px;
+            width: 200px;
         }
         .crave-con h1{
 
@@ -1180,8 +1180,8 @@ footer #aboutus{
         }
         .copyrights .doordashwhite img{
             margin-bottom: 0px;
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
         }
         #pop-up .right {
             padding-right: 2%;
@@ -1215,16 +1215,16 @@ footer #aboutus{
             font-size: 30px;
         }
         .social .instagram img{
-            width: 35px;
-            height: 35px;
+            width: 30px;
+            height: 30px;
         }
         .social .facebook img{
-            width: 35px;
-            height: 35px;
+            width: 30px;
+            height: 30px;
         }
         .social .twitter img{
-            width: 35px;
-            height: 35px;
+            width: 30px;
+            height: 30px;
         }
     }
     
