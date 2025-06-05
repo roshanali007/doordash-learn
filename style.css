@@ -425,8 +425,20 @@ form .login-btn a{
 .tab_box .tab_btn.active{
     color: black;
 }
-#top-cities:hover{
+#top-cities a,
+#top-cuisines a,
+#top-chain a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 4px 0;
+    transition: all 0.2s ease;
+}
+#top-cities a:hover,
+#top-cuisines a:hover,
+#top-chain a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 #top-cities{
     display: flex;
@@ -451,6 +463,25 @@ form .login-btn a{
     font-weight: 600;
     font-size: small;
     color:#2b2525;
+}
+#alcohol a,#aboutus a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 0;
+    transition: all 0.2s ease;
+}
+#alcohol a:hover,#aboutus a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #f6f6f6;
+}
+.helping a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.doing-buisness a:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 .content_box{
     padding: 20px;
@@ -520,7 +551,7 @@ footer{
     background-color: rgb(33, 33, 33);
 }
 footer h2 , footer a{
-    color: #f6f6f6;
+    color: #dfd8d8;
     text-align: center;
 }
 .btns {
@@ -577,6 +608,7 @@ footer h2 , footer a{
     justify-content: center;
     gap: 10px;
     padding-top: 20px;
+    align-items: center;
 }
 
 .social .facebook img{
@@ -595,6 +627,7 @@ footer h2 , footer a{
 .dropdowndiv{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .dropdown{
     display: flex;
@@ -633,7 +666,7 @@ footer #alcohol{
     gap: 15px;
     font-weight: 600;
     font-size: small;
-    color:#f6f6f6;
+    color: #f6f6f6;;
     text-align: center; padding:20px 0 ;
 }
 footer #aboutus{
@@ -1145,12 +1178,53 @@ footer #aboutus{
         .doordashwhite .terms {
             margin-bottom: 0px;
         }
-        .doordashwhite img{
+        .copyrights .doordashwhite img{
             margin-bottom: 0px;
+            width: 100px;
+            height: 100px;
         }
         #pop-up .right {
             padding-right: 2%;
             font-size: 25px;
+        }
+        .desktop-end{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .dropdown{
+            height: fit-content;
+            align-items: center;
+            border-radius: 20px;
+        }
+        #cars {
+            font-size: 20px;
+        }
+        .social{
+            order: 3;
+        }
+        .dropdowndiv{
+            order: 2;
+        }
+        .copyrights .doordashwhite {
+            gap: 17px;
+            font-size: 17px;
+    
+        }
+        .world{
+            font-size: 30px;
+        }
+        .social .instagram img{
+            width: 35px;
+            height: 35px;
+        }
+        .social .facebook img{
+            width: 35px;
+            height: 35px;
+        }
+        .social .twitter img{
+            width: 35px;
+            height: 35px;
         }
     }
     
