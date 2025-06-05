@@ -392,6 +392,9 @@ form .login-btn a{
 .tab{
     width: 96%;
 }
+.tab h1{
+    font-size: 2rem;
+}
 .tab-body{
     width: 100%;
     background-color: white;
@@ -507,6 +510,12 @@ form .login-btn a{
 .invert-icon{
     rotate:180deg;
 }
+.appstore{
+    font-size: 10px;
+}
+.googleplay{
+    font-size:8px;
+}
 footer{
     background-color: rgb(33, 33, 33);
 }
@@ -523,7 +532,7 @@ footer h2 , footer a{
     justify-content: center;
 }
 .storebtn button{
-    background-color: grey;
+    background-color: #484747;
     display: flex;
     align-items: center;
     padding: 3px;
@@ -544,10 +553,14 @@ footer h2 , footer a{
 }
 .playbtn button p{
     color:  rgb(239, 230, 230);
-    
+    text-align: left;
+}
+.playbtn button h1{
+    color:  rgb(239, 230, 230);
+    font-weight: 500;
 }
 .playbtn button{
-    background-color: grey;
+    background-color: #484747;
     display: flex;
     align-items: center;
     padding: 3px;
@@ -558,7 +571,6 @@ footer h2 , footer a{
     height: 30px;
     width: 30px;
    padding: 0px;
-    background-color:grey ;
 }
 .social{
     display: flex;
@@ -1030,7 +1042,7 @@ footer #aboutus{
             font-size: 3rem;
         }
         .container{
-            margin: 10% 0px;
+            margin: 5% 0px;
         }
 
         .sidescroll .overflowpic .sidepic .package {
@@ -1050,20 +1062,30 @@ footer #aboutus{
         .Unlocking{
             margin-top: 0px;
         }
+        .tab h1{
+            font-size: 3rem;
+        }
         .tab-body{
             width: 85%;
-            margin: 10%;
+            margin: 0% auto;
         }
         .tab_box .tab_btn {
-            font-size: 25px;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        .line{
+            height: 4px;
         }
         #top-cities,
         #top-cuisines,
         #top-chain {
             display: grid;
-            grid-template-columns: repeat(3, 1fr); 
+            grid-template-columns: repeat(4, 1fr); 
             gap: 10px 40px; 
-            font-size: 20px;
+            font-size: 21px;
+        }
+        #see-more{
+            margin-top: 45px;
         }
         footer h2 , footer a{
             padding: 30px 0;
@@ -1079,10 +1101,11 @@ footer #aboutus{
                 grid-template-columns: repeat(4, 1fr);
                 gap: 10px 40px;
                 text-align: left;
+                font-size: 20px;
         }
         footer .grid2{
                 display: grid;
-                grid-template-columns: repeat(4, 1fr);
+                grid-template-columns: repeat(5, 1fr);
                 gap: 10px 40px;
                 text-align: left;
                 padding: 0 10%;
@@ -1090,8 +1113,34 @@ footer #aboutus{
         footer h2, footer a {
             text-align: left;
         }
+        .helping a {
+            font-size: 20px;
+        }
+        .doing-buisness a {
+            font-size: 20px;
+        }
         footer #aboutus {
             text-align: left;
+            font-size: 20px;
+        }
+        .appstore {
+            font-size: 15px;
+        }
+        .googleplay {
+            font-size: 11px;
+            padding: 7px;
+        }
+        .playbtn button p {
+            font-size: 9px;
+        }.smart-icon span{
+            font-size: 40px;
+        }
+        .playbtn button img {
+            height: 40px;
+            width: 40px;
+        }
+        .btns{
+            justify-content: start;
         }
         .doordashwhite .terms {
             margin-bottom: 0px;
