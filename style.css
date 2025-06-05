@@ -778,7 +778,7 @@ footer #aboutus{
        } 
        .login .doordash-login .coupon img {
             width: 20%;
-            height: 7%;
+            height: 5%;
         }
         .login .doordash-login {
         flex-direction: column;
@@ -805,30 +805,48 @@ footer #aboutus{
             top: 20px;
             left: 50%;
             transform: translateX(-50%);
-            max-width: 280px;
+            max-width: 400px;
             height: auto;
             z-index: 1;
         }
+        #pop-up img {
+            height: 250px;
+            width: 450px;
+            margin: -95px;
+        }
+        #pop-up a {
+            color: #605d5d;
+            font-weight: 700;
+        }
+        .search .location{
+            font-size: 40px;
+        }
+        .login-btn .person{
+            font-size: 30px;
+        }
         .login .doordash-login {
-        height: 700px;
+        height: 1100px;
         }
         .login .doordash-login .coupon h1 {
-        font-size: 40px;
+        font-size: 60px;
         font-weight: 900;
         }
+        .search{
+            border-radius: 50px;
+        }
         .search-input {
-            margin: 4px 30px 4px 15px;
+            margin: 20px 200px 20px 24px;
             font-size: 21px;
         }
         .search #arrow_forward{
             border-radius: 100%;
             background-color: orangered;
             color: white;
-            padding: 4px;
+            padding: 20px;
         }
         .desktop-only {
             display: inline;
-            font-size: 19px;
+            font-size: 20px;
         }
 
         .mobile-only {
@@ -849,10 +867,11 @@ footer #aboutus{
             font-weight: 900;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             text-decoration: none;
+            font-size: 30px;
         }
 
         .signin-btn {
-            background-color: rgb(192, 69, 25);
+            background-color:  rgb(232 16 16);
             color: white;
         }
 
@@ -886,7 +905,10 @@ footer #aboutus{
             display: flex;
             flex-direction: column;
             gap: 40px;
-            margin: 0;
+            margin: 0 10%;
+        }
+        .dashpass{
+            margin-top: -130px;
         }
 
         .dashpass .restuarant-img {
@@ -896,11 +918,15 @@ footer #aboutus{
             justify-content: space-between;
             margin-top: -20%;
         }
-        .dashpass .restuarant-img:nth-child(1),
-        .dashpass .restuarant-img:nth-child(3) {
+        .dashpass .restuarant-img:nth-child(1){ 
             flex-direction: row-reverse;
         }
-
+        .dashpass .convenience{
+            flex-direction: row-reverse;
+        }
+        .dashpass .to-dash{
+            flex-direction: row-reverse;
+        }
         .dashpass .restuarant-img .crave-bg,
         .dashpass .restuarant-img .crave-con {
             width: 50%;
@@ -917,7 +943,8 @@ footer #aboutus{
 
         .dashpass .restuarant-img .crave-con {
             text-align: left;
-            width: 30%;
+            width: 35%;
+            font-size: 1.5rem;
         }
         .groceries .shop-bg {
             height: 55vh;
@@ -928,7 +955,7 @@ footer #aboutus{
         .sidescroll .overflowpic {
         
             margin-top: 10%;
-            width: 94%;
+            width: 97%;
         }
         .choices .dasher .dasherpg{
             text-align: center;
@@ -940,36 +967,44 @@ footer #aboutus{
             justify-content: center;
         }
         .dasher h1{
-            font-size: 1.8rem;
+            font-size: 2.5rem;
         }
         .dasher .arrow2{
-            font-size: 1.4rem;
+            font-size: 1.5rem;
         }
         .dasher p{
-            font-size: 1rem;
+            font-size: 1.5rem;
         }
         .choices .dasher img {
-            width: 165px;
+            width: 250px;
         }
         .crave-con h1{
 
-            font-size: 2rem;
+            font-size: 3rem;
         }    
         .dashpass .restuarant-img p {
-            font-size: 1rem;
-            font-weight: 600;
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: black;
         }
         .shop-groceries-div{
-            width: 35%;
+            width: 45%;
         }
         .shop-groceries-div h1{
-            font-size: 35px;
+            font-size: 4rem;
         }
         .shop-groceries-div h4{
-            font-size:  20px;
+            font-size:  2rem;
         }
         .shop-groceries-div h6{
-            font-size: 15px;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        .shop-groceries a{
+            font-size: 1.3rem;
+        }
+        .shop-now{
+            margin-right: 5%
         }
         .sidescroll .overflowpic .sidepic {
             display: grid;
@@ -980,16 +1015,19 @@ footer #aboutus{
             align-items: start;
             margin: 20px 184px;
         }
+        .overflowpic h1{
+            font-size: 3rem;
+        }
         .package p {
-            font-size: 15px;
+            font-size: 1.3rem;
             font-weight: 600;
             color: black;
         }
-        .package h1{
-            font-size: 35px;
+        .try-package a{
+            font-size: 1.4rem;
         }
         .get-dash .h1{
-            font-size: 30px;
+            font-size: 3rem;
         }
         .container{
             margin: 10% 0px;
@@ -999,11 +1037,18 @@ footer #aboutus{
             padding: 0;
         }
         .sidescroll .overflowpic .sidepic img {
-        width: 580px;
-        height: 520px;
+        width: 100%;
+        height: 100%;
         }
-        .package h6{
-            font-size: 14px;
+        .sidescroll .overflowpic .flower-img{
+            width: 100%;
+        }
+        .package h6 {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        .Unlocking{
+            margin-top: 0px;
         }
         .tab-body{
             width: 85%;
@@ -1056,6 +1101,7 @@ footer #aboutus{
         }
         #pop-up .right {
             padding-right: 2%;
+            font-size: 25px;
         }
     }
     
