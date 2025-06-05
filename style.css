@@ -119,8 +119,8 @@ body{
     width: 80vw;
 }
 .login .doordash-login .coupon img{
-    width: 20%;
-    height: 5%;
+    width: 180px;
+    height: 30px;
 }
 .login .doordash-login .coupon h1{
     color: #f6f6f6;
