@@ -277,7 +277,7 @@ form .login-btn a{
     font-size: smaller; font-weight: 700; color:#605d5d;
 }
 .dashpass .restuarant-img .crave-con{
-    margin-top: 50%;
+    margin-top: 35%;
 }
 .dashpass .restuarant-img ,.dashpass .restuarant-img h3,.dashpass .restuarant-img h6,.dashpass .restuarant-img p,.dashpass .restuarant-img .find-restaurant{
     padding-top: 20px;
@@ -701,7 +701,7 @@ footer #aboutus{
 .doordashwhite img{
             margin-bottom: -20px;
         }
-@media screen and (min-width: 760px) and (max-width: 819px){
+@media screen and (min-width: 720px) and (max-width: 819px){
         .choices .dasher{
         margin: 0px 180px;
     }
