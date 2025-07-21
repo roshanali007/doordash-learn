@@ -117,6 +117,7 @@ body{
     flex-direction: column;
     align-items: center;
     width: 80vw;
+    margin-top: 55px;
 }
 .login .doordash-login .coupon img{
     width: 180px;
@@ -130,7 +131,7 @@ body{
     width: max-content;
     display: flex;
     align-items: center;
-    padding: 14px;
+    padding: 8px 6px;
     border-radius: 28px;
     background: #f6f6f6;
     transition: box-shadow 0.25s;
@@ -179,8 +180,8 @@ form .login-btn{
     display:flex;
     width: fit-content;
     align-items: center;
-    padding:10px 17px;
-    margin-top: 20px;
+    padding:5px 10px;
+    margin-top: 15px;
     border-radius: 28px;
 }
 form .login-btn a{
@@ -188,8 +189,8 @@ form .login-btn a{
     text-decoration: none;
     color: #333333;
     margin: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 900;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+    font-weight: 700;
 }
 .continue{
     background-color: rgb(252, 255, 255);
@@ -822,8 +823,8 @@ footer #aboutus{
         display: none;
        } 
        .login .doordash-login .coupon img {
-        width: 500px;
-        height: 50px;
+        width: 230px;
+        height: auto;
         }
         .login .doordash-login {
         flex-direction: column;
@@ -840,9 +841,6 @@ footer #aboutus{
         align-items: center;
         justify-content: center;
         text-align: center;
-    }
-        .login .coupon {
-            margin-top: 250px;
         }
 
         .login .coupon img {
@@ -854,10 +852,11 @@ footer #aboutus{
             height: auto;
             z-index: 1;
         }
+        
         #pop-up img {
-            height: 250px;
-            width: 450px;
-            margin: -95px;
+            height: 180px;
+            width: auto;
+            margin: -80px
         }
         #pop-up a {
             color: #605d5d;
@@ -867,31 +866,36 @@ footer #aboutus{
             font-size: 30px;
         }
         .login-btn .person{
-            font-size: 30px;
+            font-size: 20px;
         }
         .login .doordash-login {
-        height: 700px;
+        height: 650px;
         }
         .login .doordash-login .coupon h1 {
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 900;
+        font-family: "TTNormsProCond-Blk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
         }
         .search{
             border-radius: 50px;
         }
+        .search .desktop-only{
+            padding-left: 6px;
+        }
         .search-input {
-            margin: 10px 150px 10px 24px;
-            font-size: 20px;
+            margin: 10px 115px 10px 10px;
+            font-size: 16px;
+            font-weight: 500;
         }
         .search #arrow_forward{
             border-radius: 100%;
-            background-color: orangered;
+            background-color: #eb1700ff;
             color: white;
             padding: 10px;
         }
         .desktop-only {
             display: inline;
-            font-size: 20px;
+            font-size: 14px;
         }
 
         .mobile-only {
@@ -900,19 +904,19 @@ footer #aboutus{
 
         .auth-buttons {
             position: absolute;
-            top: 20px;
-            right: 20px;
+            top: 15px;
+            right: 25px;
             display: flex;
-            gap: 10px;
+            gap: 7px;
         }
 
         .auth-buttons a {
-            padding: 8px 16px;
+            padding: 8px 11px;
             border-radius: 20px;
-            font-weight: 900;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 700;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
             text-decoration: none;
-            font-size: 20px;
+            font-size: 18px;
         }
 
         .signin-btn {
@@ -922,7 +926,7 @@ footer #aboutus{
 
         .signup-btn {
             background-color: white;
-            color: black;
+            color: #606060ff;
             border: 1px solid #aaa;
         }
         .continue {
@@ -934,8 +938,12 @@ footer #aboutus{
             align-items: center;
             align-self: center;
             justify-content: center;
-            padding: 5% 17%;
-            }
+            padding: 100px 500px 0px;
+            gap: 50px;
+        }
+        .find-restaurant a{
+            font-size: 16px;
+        }
         .choices .dasher {
             justify-content: center;
             padding: 0px;
@@ -943,25 +951,25 @@ footer #aboutus{
             align-items: center;
 
         }
+        .dashpass .restuarant-img .crave-bg {
+            height: auto;
+        }
         .dasherpg p{
             font-weight: 600;
         }
         .dashpass .get-dash {
             display: flex;
             flex-direction: column;
-            gap: 40px;
-            margin: 0 10%;
+            padding: 0 300px;
         }
         .dashpass{
-            margin-top: -130px;
+            padding-top: 80px;
         }
-
         .dashpass .restuarant-img {
             display: flex;
             flex-direction: row;
             align-items: center;
-            justify-content: space-between;
-            margin-top: -20%;
+            justify-content: center;
         }
         .dashpass .restuarant-img:nth-child(1){ 
             flex-direction: row-reverse;
@@ -972,24 +980,30 @@ footer #aboutus{
         .dashpass .to-dash{
             flex-direction: row-reverse;
         }
+        .dashpass .restuarant-img {
+            padding: 20px 20px 0px 20px;
+        }
         .dashpass .restuarant-img .crave-bg,
         .dashpass .restuarant-img .crave-con {
-            width: 50%;
-            padding: 20px;
+            width: auto;
+            padding: 20px 50px;
         }
         .dashpass .restuarant-img .crave-con {
-            margin-top: 40%;
+            margin-top: 100px;
         }
         .dashpass .restuarant-img .crave-bg img {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
+                
+            width: auto;
+            height: 500px;
         }
-
         .dashpass .restuarant-img .crave-con {
             text-align: left;
-            width: 35%;
-            font-size: 1.5rem;
+            width: auto;
+            
+        }
+        .dashpass .restuarant-img h2{
+            font-size: 40px;
+            font-weight: 700;
         }
         .groceries .shop-bg {
             height: 55vh;
@@ -1012,44 +1026,46 @@ footer #aboutus{
             justify-content: center;
         }
         .dasher h1{
-            font-size: 2.5rem;
+            font-size: 32px;
         }
         .dasher .arrow2{
-            font-size: 1.5rem;
+            font-size: 18px;
         }
         .dasher p{
-            font-size: 1.5rem;
+            font-size: 18px;
         }
         .choices .dasher img {
-            width: 200px;
+            width: 154px;
+            height: auto;
         }
         .crave-con h1{
-
-            font-size: 3rem;
+            font-size: 40px;
+            font-weight: 700;
         }    
         .dashpass .restuarant-img p {
-            font-size: 1.4rem;
+            font-size: 16px;
             font-weight: 500;
             color: black;
         }
         .shop-groceries-div{
-            width: 45%;
+            padding: 0px 706px;
         }
         .shop-groceries-div h1{
-            font-size: 4rem;
+            font-size: 40px;
+            font-weight: 700;
         }
         .shop-groceries-div h4{
-            font-size:  2rem;
+            font-size:  20px;
+            font-weight: 700;
         }
         .shop-groceries-div h6{
-            font-size: 1.5rem;
-            font-weight: 600;
+            font-size: 16px;
+            font-weight: 500;
         }
+        
         .shop-groceries a{
-            font-size: 1.3rem;
-        }
-        .shop-now{
-            margin-right: 5%
+            font-size: 16px;
+            font-weight: 700;
         }
         .sidescroll .overflowpic .sidepic {
             display: grid;
@@ -1058,21 +1074,28 @@ footer #aboutus{
             overflow: visible; 
             justify-items: center;
             align-items: start;
-            margin: 20px 184px;
+            margin: 20px 350px;
         }
         .overflowpic h1{
-            font-size: 3rem;
+            font-size: 32px;
+            font-weight: 700;
+        }
+        .sidepic h1{
+            font-size: 40px;
+            font-weight: 700;
         }
         .package p {
-            font-size: 1.3rem;
-            font-weight: 600;
+            font-size: 16px;
+            font-weight: 500;
             color: black;
         }
         .try-package a{
-            font-size: 1.4rem;
+            font-size: 16px;
+            font-weight: 700;
         }
         .get-dash .h1{
-            font-size: 3rem;
+            font-size: 32px;
+            font-weight: 700;
         }
         .container{
             margin: 5% 0px;
@@ -1082,32 +1105,35 @@ footer #aboutus{
             padding: 0;
         }
         .sidescroll .overflowpic .sidepic img {
-        width: 100%;
-        height: 100%;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
         }
         .sidescroll .overflowpic .flower-img{
             width: 100%;
         }
         .package h6 {
-            font-size: 1.2rem;
+            font-size: 14px;
             font-weight: 500;
         }
         .Unlocking{
             margin-top: 0px;
         }
         .tab h1{
-            font-size: 3rem;
+            font-size: 32px;
+            font-weight: 700;
         }
         .tab-body{
             width: 85%;
             margin: 0% auto;
         }
         .tab_box .tab_btn {
-            font-size: 1.4rem;
-            font-weight: 600;
+            font-size: 16px;
+            font-weight: 700;
         }
         .line{
-            height: 4px;
+            height: 3px;
         }
         #top-cities,
         #top-cuisines,
@@ -1115,7 +1141,10 @@ footer #aboutus{
             display: grid;
             grid-template-columns: repeat(4, 1fr); 
             gap: 10px 40px; 
-            font-size: 21px;
+            font-size: 16px;
+        }
+        .tab {
+            width: 70%;
         }
         #see-more{
             margin-top: 45px;
@@ -1128,6 +1157,8 @@ footer #aboutus{
         }
         #popular h2{
             text-align: left;
+            font-size: 16px;
+            font-weight: 500;
         }
         footer #alcohol{
                 display: grid;
@@ -1145,12 +1176,16 @@ footer #aboutus{
         }
         footer h2, footer a {
             text-align: left;
+            font-size: 16px;
+            font-weight: 500;
         }
         .helping a {
-            font-size: 20px;
+            font-size: 14px;
+            font-weight: 500;
         }
         .doing-buisness a {
-            font-size: 20px;
+            font-size: 14px;
+            font-weight: 500;
         }
         footer #aboutus {
             text-align: left;
@@ -1183,9 +1218,12 @@ footer #aboutus{
             width: 60px;
             height: 60px;
         }
+        #pop-up {
+            height: 50px;
+        }
         #pop-up .right {
-            padding-right: 2%;
-            font-size: 25px;
+            padding-right: 1%;
+            font-size: 18px;
         }
         .desktop-end{
             display: flex;
