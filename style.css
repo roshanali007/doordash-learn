@@ -822,6 +822,11 @@ footer #aboutus{
        header{
         display: none;
        } 
+       .login .doordash-login .coupon {
+
+        width: auto;
+    
+        }
        .login .doordash-login .coupon img {
         width: 230px;
         height: auto;
@@ -938,7 +943,7 @@ footer #aboutus{
             align-items: center;
             align-self: center;
             justify-content: center;
-            padding: 100px 500px 0px;
+            padding: 100px 170px 0px;
             gap: 50px;
         }
         .find-restaurant a{
@@ -960,7 +965,7 @@ footer #aboutus{
         .dashpass .get-dash {
             display: flex;
             flex-direction: column;
-            padding: 0 300px;
+            padding: 0 100px;
         }
         .dashpass{
             padding-top: 80px;
@@ -986,7 +991,7 @@ footer #aboutus{
         .dashpass .restuarant-img .crave-bg,
         .dashpass .restuarant-img .crave-con {
             width: auto;
-            padding: 20px 50px;
+            padding: 20px;
         }
         .dashpass .restuarant-img .crave-con {
             margin-top: 100px;
@@ -1010,6 +1015,9 @@ footer #aboutus{
             margin-top: 0%;
             padding: 80px 0px;
             background-color:rgb(31 29 29); 
+        }
+        .shop-groceries-div {
+        width: 39%;
         }
         .sidescroll .overflowpic {
         
@@ -1041,15 +1049,16 @@ footer #aboutus{
         .crave-con h1{
             font-size: 40px;
             font-weight: 700;
-        }    
+        }  
+        .shop-now h1 {
+         width: 87%;
+        }  
         .dashpass .restuarant-img p {
             font-size: 16px;
             font-weight: 500;
             color: black;
         }
-        .shop-groceries-div{
-            padding: 0px 706px;
-        }
+       
         .shop-groceries-div h1{
             font-size: 40px;
             font-weight: 700;
@@ -1074,7 +1083,7 @@ footer #aboutus{
             overflow: visible; 
             justify-items: center;
             align-items: start;
-            margin: 20px 350px;
+            margin: 20px 70px;
         }
         .overflowpic h1{
             font-size: 32px;
@@ -1105,7 +1114,7 @@ footer #aboutus{
             padding: 0;
         }
         .sidescroll .overflowpic .sidepic img {
-            width: 100%;
+            width: 95%;
             height: 100%;
             object-fit: cover;
             object-position: center center;
@@ -1125,7 +1134,7 @@ footer #aboutus{
             font-weight: 700;
         }
         .tab-body{
-            width: 85%;
+            width: 100%;
             margin: 0% auto;
         }
         .tab_box .tab_btn {
@@ -1149,8 +1158,17 @@ footer #aboutus{
         #see-more{
             margin-top: 45px;
         }
-        footer h2 , footer a{
-            padding: 30px 0;
+        footer .h2 {
+            padding: 30px 0 0 0;
+        }
+        a.terms {
+            font-size: 12px;
+        }
+        p.terms{
+            font-size: 12px;
+        }
+        footer .helping {
+            padding: 22px 0;
         }
         #popular{
             padding: 0 10%;
@@ -1163,7 +1181,7 @@ footer #aboutus{
         footer #alcohol{
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
-                gap: 10px 40px;
+                gap: 0;
                 text-align: left;
                 font-size: 20px;
         }
@@ -1179,18 +1197,35 @@ footer #aboutus{
             font-size: 16px;
             font-weight: 500;
         }
+        #alcohol a{
+            padding: 0;
+        }
         .helping a {
             font-size: 14px;
             font-weight: 500;
+            padding: 4px 0;
         }
         .doing-buisness a {
             font-size: 14px;
             font-weight: 500;
+            padding: 4px 0;
+        }
+        .doing-buisness {
+            padding: 22px 0;
         }
         footer #aboutus {
             text-align: left;
             font-size: 20px;
+            gap: 0;
         }
+        .storebtn button .app-store{
+            color: rgb(239, 230, 230);
+            font-size: 20px;
+        }
+        .playbtn button .google-play{
+            color: rgb(239, 230, 230);
+             font-size: 18px;
+        } 
         .appstore {
             font-size: 15px;
         }
@@ -1220,6 +1255,7 @@ footer #aboutus{
         }
         #pop-up {
             height: 50px;
+            width: 100%;
         }
         #pop-up .right {
             padding-right: 1%;
@@ -1228,7 +1264,8 @@ footer #aboutus{
         .desktop-end{
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: center;
+            gap: 120px
         }
         .dropdown{
             height: fit-content;
@@ -1236,7 +1273,7 @@ footer #aboutus{
             border-radius: 20px;
         }
         #cars {
-            font-size: 20px;
+            font-size: 14px;
         }
         .social{
             order: 3;
